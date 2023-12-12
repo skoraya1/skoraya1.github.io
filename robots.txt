@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: /admin/
+Disallow: /private/
+Disallow: /hidden-page.html
+Disallow: /cgi-bin/
+Disallow: /tmp/
+
+Sitemap: https://cardiomedskoraya.com/sitemap.xml
