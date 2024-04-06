@@ -1199,3 +1199,61 @@ body {
   .cta-banner { margin-block-start: -120px; }
 
 }
+
+
+/* 
+
+Hero sec ambulance animation
+
+*/
+.hero {
+  position: relative;
+  overflow: hidden;
+}
+.hero_ambulance{
+  position:relative;
+}
+
+.hero_circular_img{
+  position:absolute;
+
+}
+
+.hero .hero_ambulance{
+  position: relative;
+  top: 0;
+  right: -100%; /* Initially position it outside the viewport */
+  transition: right 1.7s ease; /* Apply transition for smooth movement */
+  animation: slideFromRight 1.7s ease forwards; /* Animation for sliding */
+}
+
+.hero .hero-banner{
+  position:relative;
+  scale: 1.3;
+  z-index: 2;
+}
+
+/* Add animation keyframes for sliding from right */
+@keyframes slideFromRight {
+  from {
+    right: -100%; /* Start position */
+  }
+  to {
+    right: 0; /* End position */
+  }
+}
+
+.rotate-360 {
+  animation: rotate 3s linear infinite; /* Adjust duration and timing function as needed */
+  scale:1.2;
+  left:70px
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg); /* Start position */
+  }
+  to {
+    transform: rotate(360deg); /* End position */
+  }
+}
