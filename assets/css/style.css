@@ -208,6 +208,20 @@ body {
 
 .btn:is(:hover, :focus) { --deg: -90deg; }
 
+.btn-car {
+  background-image: linear-gradient( var(--deg, 90deg), var(--carolina-blue) 0%, var(--royal-blue-light) 100%);
+  color: var(--white);
+  font-size: var(--fs-7);
+  text-transform: uppercase;
+  padding: 20px 30px;
+  text-align: center;
+  border-radius: var(--radius-4);
+  box-shadow: var(--shadow-4);
+  margin: 5rem 0 0 45rem;
+}
+
+.btn-car:is(:hover, :focus) { --deg: -90deg; }
+
 .w-100 { width: 100%; }
 
 .text-center { text-align: center; }
