@@ -761,6 +761,26 @@ body {
    * CUSTOM PROPERTY
    */
 
+   :root {
+
+    /**
+     * typography
+     */
+
+    --fs-1: 4.2rem;
+
+  }
+
+  /**
+   * REUSED STYLE
+   */
+
+  .container {
+    max-width: 540px;
+    width: 100%;
+    margin-inline: auto;
+  }
+   
    /**
    * image
    */
