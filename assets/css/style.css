@@ -22,7 +22,7 @@ header {
   background-color: #00183d;
   color: #ffffff;
   height: 100vh;
-  background-image: url("./assets/images/header_bg.png");
+  background-image: url("/assets/images/header_bg.png");
   background-size: cover;
   background-position: center;
   margin-bottom: 80px;
@@ -221,7 +221,7 @@ footer {
 
 .footer-container {
   background-color: #00183d;
-  background-image: url("./assets/images/footer-bg.png");
+  background-image: url("/assets/images/footer-bg.png");
   background-position-y: bottom;
   background-size: cover;
   height: 70vh;
